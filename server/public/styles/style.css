@@ -1,0 +1,59 @@
+body {
+    font-family: 'Anonymous Pro', monospace;
+    margin-top: 25px;
+}
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    max-width: 370px;
+    padding-right: 7px;
+    padding-left: 9px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226); 
+}
+.button {
+    background-color: darkslategray;
+    border: 5px black;
+    color: white;
+    /* round buttons */
+    inline-size: 60px;
+    block-size: 60px;
+    border-radius: 40px;
+    /* end round buttons */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px;
+    cursor: pointer;
+    width: 80px;
+    /* font-family: 'Anonymous Pro', monospace; */
+    /* border: 1px solid black; */
+
+    box-shadow: 0 2px 0 0 black;
+}
+.button:active {
+    box-shadow: 0 0 1px 0 black inset;
+    margin-top: 4px;
+}
+.symbol {
+    background-color: rgb(223, 49, 5);
+}
+#projectTitle {
+    font-size: 28px;
+}
+#userInput {
+    /* margin-left: 4px; */
+    width: 255px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: right;
+    background-color:#bccd95;  
+}
+#submitCalculationButton {
+    background-color: rgb(236, 159, 16);
+}

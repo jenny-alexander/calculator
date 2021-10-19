@@ -6,7 +6,7 @@ const bodyParser = require( 'body-parser' );
 //uses
 app.use( express.static( 'server/public' ) );
 //needed for post
-bodyParser.use( bodyParser.urlencoded( { extended: true } ) );
+app.use( bodyParser.urlencoded( { extended: true } ) );
 
 //globals
 let calculationsArray = [];
