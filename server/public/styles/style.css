@@ -15,7 +15,7 @@ body {
     background-color: rgb(226, 226, 226); 
 }
 .button {
-    background-color: darkslategray;
+    background-color: rgb(57, 92, 92);
     border: 5px black;
     color: white;
     /* round buttons */
@@ -44,6 +44,7 @@ body {
 }
 #projectTitle {
     font-size: 28px;
+    padding-left: 7px;
 }
 #userInput {
     /* margin-left: 4px; */
