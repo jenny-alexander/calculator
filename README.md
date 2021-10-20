@@ -4,7 +4,7 @@
 
 The objective of this stretch weekend challenge was to build a server-side calculator where the logic for the calculator had to be implemented on the server.
 
-To see the fully functional calculator, please visit: <https://ancient-fjord-36573.herokuapp.com/>.
+To see the fully functional calculator, please visit: <https://frozen-ridge-50072.herokuapp.com/>.
 
 ## Calculator Demo
 
