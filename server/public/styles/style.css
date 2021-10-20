@@ -7,6 +7,7 @@ body {
     flex-wrap: wrap;
     border: 1px solid black;
     max-width: 370px;
+    min-width: 370px;
     padding-right: 7px;
     padding-left: 9px;
     padding-top: 25px;
@@ -43,11 +44,14 @@ body {
     background-color: rgb(223, 49, 5);
 }
 #projectTitle {
-    font-size: 28px;
-    padding-left: 7px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#projectSubTitle {
+    font-size: 15px;
 }
 #userInput {
-    /* margin-left: 4px; */
     width: 255px;
     height: 40px;
     font-size: 20px;
@@ -57,4 +61,16 @@ body {
 }
 #submitCalculationButton {
     background-color: rgb(236, 159, 16);
+}
+#calcAnswer {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+#calculationsOut{
+    font-size: 16px;
+}
+#clearHistoryButton {
+    font-family: 'Anonymous Pro', monospace;
+    border-radius: 40px;
 }

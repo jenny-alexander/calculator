@@ -6,9 +6,9 @@ The objective of this stretch weekend challenge was to build a server-side calcu
 
 To see the fully functional calculator, please visit: <https://ancient-fjord-36573.herokuapp.com/>.
 
-## Screen Shot
+## Calculator Demo
 
-![calculator interface](images/server_side_calculator.png)
+![calculator interface](images/calculator.gif)
 
 ### Prerequisites
 
