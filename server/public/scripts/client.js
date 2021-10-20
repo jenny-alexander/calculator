@@ -106,9 +106,18 @@ function isUserInputValid( userInput ) {
         isInputGood = false;
     }
     //check that first character/digit is a number
+    // if ( !/^\d/.test( userInput ) ) {
+    //     isInputGood = false;
+    // } 
     if ( !/^\d/.test( userInput ) ) {
-        isInputGood = false;
+        //check if it's a '.'. If yes, then append 0 in front.
+        if ( /^\.{1}/ ) {
+            userInput = '0' + userInput;
+        } else {
+            isInputGood = false;
+        }
     } 
+
     //check that last character/digit is a number
     if ( !/[0-9]$/.test( userInput ) ) {
         isInputGood = false;
