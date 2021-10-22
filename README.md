@@ -4,6 +4,8 @@
 
 The objective of this stretch weekend challenge was to build a server-side calculator where the logic for the calculator had to be implemented on the server.
 
+**eval() was NOT used in this exercise.** Order of operations was programmed by me.
+
 To see the fully functional calculator, please visit: <https://frozen-ridge-50072.herokuapp.com/>.
 
 ## Calculator Demo
